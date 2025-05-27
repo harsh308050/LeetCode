@@ -4,7 +4,7 @@ class Solution {
        else if (num<10){ for(int i =2;i<((num/2)+1);i++){
             if(i*i==num) return true;
         }}
-        else if (num>10){
+        else if (num>=10){
        for(int i =2;i<((num/3)+1);i++){
         if(i*i==num) return true;
        }}
